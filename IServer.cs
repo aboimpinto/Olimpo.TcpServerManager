@@ -1,7 +1,7 @@
 using System.Net;
 using System.Reactive.Subjects;
 
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public interface IServer
 {

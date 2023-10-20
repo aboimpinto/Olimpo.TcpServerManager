@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using System.Reactive.Subjects;
 
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public class Server : IServer
 {

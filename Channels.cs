@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public class Channels
 {

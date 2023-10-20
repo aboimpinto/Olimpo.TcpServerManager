@@ -1,6 +1,6 @@
 using System.Net.Sockets;
 
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public static class TcpClientExtensions
 {

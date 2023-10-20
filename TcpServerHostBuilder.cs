@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public static class TcpServerHostBuilder
 {

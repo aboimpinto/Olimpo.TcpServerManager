@@ -1,4 +1,4 @@
-namespace Olimpo.TcpServerManager;
+namespace Olimpo;
 
 public class ChannelRegistrationException : Exception
 {
