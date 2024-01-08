@@ -61,6 +61,12 @@ public class Channel : IDisposable
         }
     }
 
+    public void Send(string message)
+    {
+        var data = Encoding.UTF8.GetBytes(message);
+        this._stream.Write(data, 0, data.Length);
+    }
+
     protected virtual void Dispose(bool disposing)
     {
         if (!this._disposed)
