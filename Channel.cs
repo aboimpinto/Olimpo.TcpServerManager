@@ -17,7 +17,7 @@ public class Channel : IDisposable
     {
         this._server = myServer;
         
-        this._buffer = new byte[256];
+        this._buffer = new byte[4096];                  // Be able to receive 4MBytes of data
         this._channelId = Guid.NewGuid().ToString();
     }
 
