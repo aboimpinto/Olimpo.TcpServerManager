@@ -1,3 +1,5 @@
+using System;
+
 namespace Olimpo;
 
 public class DataReceivedArgs : IDisposable

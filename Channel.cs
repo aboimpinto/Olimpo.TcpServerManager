@@ -1,3 +1,4 @@
+using System;
 using System.Net.Sockets;
 using System.Text;
 
@@ -29,7 +30,7 @@ public class Channel : IDisposable
         if (!this._server.ConnectedChannels.OpenChannels.TryAdd(this._channelId, this))
         {
             this._isOpen = false;
-            throw (new ChannelRegistrationException("Unable to register a new communication channel to channel list."));
+            throw new ChannelRegistrationException("Unable to register a new communication channel to channel list.");
         }
 
         string data;
